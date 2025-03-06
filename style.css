@@ -1,0 +1,107 @@
+/* GitHub pages: https://carol878.github.io/NahirCarolinaTorres-ExamenLenguajes2/ */
+/* Repositorio: https://github.com/Carol878/NahirCarolinaTorres-ExamenLenguajes2.git */
+
+/* Tabla Street fighter*/
+body {
+    background-image: url(img/fondo2.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: street, serif;
+}
+
+@font-face {
+    font-family: Street;
+    src: url(font/street.otf);
+}
+
+h1 {
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+    font-style: normal;
+}
+
+Table {
+    width: 600px;
+    height: 800px;
+    border: 10px outset #EDAF05;
+    border-radius: 10px;
+    margin: auto;
+    align-content: center;
+    background: black;
+}
+
+#cabecera {
+    width: 40px;
+    height: 45px;
+    background-image: url(img/fondocabecera.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    opacity: 0.5;
+    font-size: 40px;
+    text-align: center;
+}
+
+tr, td {
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+}
+
+/* Formulario */
+h2 {
+    font-family: Street, serif;
+    font-size: 28px;
+    color: crimson;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    height: 1100px;
+    margin: auto;
+    align-content: center;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, serif;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+legend {
+    font-family: Street, serif;
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    text-align: left;
+}
+fieldset {
+    text-align: left;
+}
+
+textarea {
+    width: 560px;
+}
+
+button {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: Street, serif;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+
+
